@@ -19,4 +19,11 @@
 		position: relative;
 		background-color: #fff;		
 	}
+	/* 自定义轮播图指示点样式 */
+	uni-swiper .uni-swiper-dot {
+	        width: 40upx !important;  
+	        height: 5upx !important;   
+	        border-radius: 0px !important;  
+			
+	    }
 </style>
