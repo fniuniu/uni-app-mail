@@ -66,6 +66,10 @@
 			
 		},
 		methods: {
+		// 	asaync initData() {
+		// 		let res = await this.$fetch(this.$api.initData)
+		// 		this.swiperList = res.data.data.swiperList.sort(function() { return 0.5 - Math.random() })
+		// 	},
 			initData() {
 				uni.request({
 					url: interfaces.getMallData,
@@ -78,9 +82,9 @@
 				})
 				 
 			},
-			toPromotion(item) {
-				uni.showToast({ title: e.title, icon: 'none' });
-			}
+			// toPromotion(item) {
+			// 	uni.showToast({ title: e.title, icon: 'none' });
+			// }
 		}
 	}
 </script>
