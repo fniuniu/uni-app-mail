@@ -1,5 +1,7 @@
 <template>
 	<view class="container">
+		<!-- 状态栏 -->
+		<page-status></page-status>
 		<!-- 自定义顶部导航栏 -->
 		<page-header></page-header>
 		

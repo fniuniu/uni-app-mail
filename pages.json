@@ -3,7 +3,11 @@
 		{
 			"path": "pages/tabBar/home/home",
 			"style": {
-				"navigationBarTitleText": "首页"
+				"navigationBarTitleText": "首页",
+				"app-plus": {
+					"titleNView": false,
+					"bounce":"none"
+				}
 			}
 		},
 		{
@@ -26,6 +30,10 @@
         }
         ,{
             "path" : "pages/tabBar/home/pageHeader",
+            "style" : {}
+        }
+        ,{
+            "path" : "components/status",
             "style" : {}
         }
     ],

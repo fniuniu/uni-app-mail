@@ -1,0 +1,1 @@
+<view class="header"><view class="addr"><view class="iocn iconfont"></view>{{''+city+''}}</view><view class="input-box"><input placeholder="some word..." placeholder-style="color:#c0c0c0"/><view class="iocn iconfont"></view></view><view class="icon-btn"><view class="iocn iconfont"></view></view></view>
