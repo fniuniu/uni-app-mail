@@ -64,8 +64,7 @@
 			}
 		},
 		onLoad() {
-			this.initData()
-			
+			this.initData()		
 		},
 		methods: {
 		// 	asaync initData() {

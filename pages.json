@@ -4,6 +4,7 @@
 			"path": "pages/tabBar/home/home",
 			"style": {
 				"navigationBarTitleText": "首页",
+				//取消状态栏
 				"app-plus": {
 					"titleNView": false,
 					"bounce":"none"
@@ -13,7 +14,12 @@
 		{
 		    "path" : "pages/tabBar/category/category",
 		    "style" : {
-				"navigationBarTitleText": "目录"
+				"navigationBarTitleText": "目录",
+				//取消状态栏
+				"app-plus": {
+					"titleNView": false,
+					"bounce":"none"
+				}
 			}
 		},
 	    {
