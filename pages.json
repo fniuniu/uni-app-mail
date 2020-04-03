@@ -6,8 +6,8 @@
 				"navigationBarTitleText": "首页",
 				//取消状态栏
 				"app-plus": {
-					"titleNView": false,
-					"bounce":"none"
+					// "titleNView": false,
+					//"bounce":"none"
 				}
 			}
 		},
@@ -17,8 +17,8 @@
 				"navigationBarTitleText": "目录",
 				//取消状态栏
 				"app-plus": {
-					"titleNView": false,
-					"bounce":"none"
+					// "titleNView": false,
+					// "bounce":"none"
 				}
 			}
 		},

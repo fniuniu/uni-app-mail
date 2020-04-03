@@ -9,7 +9,6 @@
 				<view class="row" v-for="(category,index) in categoryList" :key="index">
 					<view class="text">{{ category.title }}</view>
 				</view>
-				
 			</scroll-view>
 		</view>
 	</view>
