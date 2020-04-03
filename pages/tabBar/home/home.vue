@@ -64,14 +64,20 @@
 			}
 		},
 		onLoad() {
+			//页面加载时，初始化数据，获取后台数据
 			this.initData()		
 		},
 		methods: {
-		// 	asaync initData() {
-		// 		let res = await this.$fetch(this.$api.initData)
-		// 		this.swiperList = res.data.data.swiperList.sort(function() { return 0.5 - Math.random() })
-		// 	},
-			initData() {
+			//获取后台数据 fetch请求网络接口
+			async initData() {
+				let res = await fetch(interfaces.getMallData)
+					.then((res) => res.json())
+				this.categoryList = res.data.categoryList;
+				this.promotion = res.data.promotion;
+				this.swiperList = res.data.swiperList;
+			},
+			//获取后台数据 uni.request请求网络接口
+			/* initData() {
 				uni.request({
 					url: interfaces.getMallData,
 					success: (res) => {
@@ -81,11 +87,12 @@
 						console.log(res)
 					}
 				})
-				 
-			},
-			// toPromotion(item) {
-			// 	uni.showToast({ title: e.title, icon: 'none' });
-			// }
+			},*/
+			
+			//优惠活动促销详情
+			toPromotion(item) {
+				uni.showToast({ title: e.title, icon: 'none' });
+			}
 		}
 	}
 </script>

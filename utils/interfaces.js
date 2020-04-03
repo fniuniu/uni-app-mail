@@ -6,3 +6,4 @@ const interfaces = {
 	getCategory: domain + "/api/profiles/category",
 }
 module.exports = interfaces;
+
